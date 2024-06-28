@@ -3,20 +3,8 @@
   hosts: all
   become: yes
   tasks:
-    - name: Ensure Mailcow directory exists
-      file:
-        path: /opt/mailcow-dockerized
-        state: directory
-
     - name: Change to Mailcow directory
       command: chdir=/opt/mailcow-dockerized
-
-    - name: Pull latest changes from the repository
-      git:
-        repo: 'https://github.com/mailcow/mailcow-dockerized'
-        dest: /opt/mailcow-dockerized
-        version: master
-        force: yes
 
     - name: Run update.sh script
       command: ./update.sh
