@@ -4,7 +4,7 @@
   become: yes
   tasks:
     - name: Change to Mailcow directory
-      command: chdir=/opt/mailcow-dockerized
+      command: cd /opt/mailcow-dockerized
 
     - name: Run update.sh script
       command: ./update.sh
