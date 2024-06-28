@@ -1,6 +1,6 @@
 ---
 - name: Upgrade all Ubuntu VMs
-  hosts: hetzner
+  hosts: all
 
   tasks:
   - name: Update apt package cache and upgrade all packages
