@@ -10,7 +10,7 @@
         state: directory
 
     - name: Change to Mailcow directory
-      command: chdir= /opt/mailcow-dockerized
+      command: chdir=/opt/mailcow-dockerized ls
 
     - name: Run update.sh script
       command: ./update.sh
