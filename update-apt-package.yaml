@@ -1,6 +1,7 @@
 ---
 - name: Upgrade all Ubuntu VMs
   hosts: all
+  user: linuxer
   sudo: yes
 
   tasks:
