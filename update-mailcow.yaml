@@ -9,8 +9,10 @@
         path: /opt/mailcow-dockerized
         state: directory
 
-    - name: Run update.sh script
+    - name: Change to Mailcow directory
       command: chdir=/opt/mailcow-dockerized ls
+
+    - name: Run update.sh script
       command: ./update.sh
 
     - name: Cleanup Docker system
