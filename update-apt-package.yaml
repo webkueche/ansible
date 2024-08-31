@@ -1,6 +1,7 @@
 ---
 - name: Upgrade all Ubuntu VMs
   hosts: all
+  sudo: yes
 
   tasks:
   - name: Update apt package cache and upgrade all packages
