@@ -2,6 +2,7 @@
 - name: Update Mailcow
   hosts: all
   become: yes
+  become_user: root
   tasks:
     - name: Ensure Mailcow directory exists
       file:
