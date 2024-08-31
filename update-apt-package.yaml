@@ -7,5 +7,4 @@
     ansible.builtin.apt:
       name: "*"
       update_cache: yes
-      sudo: yes
       state:  latest
