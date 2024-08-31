@@ -1,9 +1,9 @@
 ---
 - name: Upgrade all Ubuntu VMs
   hosts: all
-    become: true
+  become: true
   become_user: root
-
+  
   tasks:
   - name: Update apt package cache and upgrade all packages
     ansible.builtin.apt:
