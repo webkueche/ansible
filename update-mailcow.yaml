@@ -14,8 +14,6 @@
 
     - name: Run update.sh script
       command: ./update.sh
-      args:
-        chdir: /opt/mailcow-dockerized
 
     - name: Cleanup Docker system
       command: docker system prune -f
