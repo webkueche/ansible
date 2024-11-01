@@ -1,0 +1,13 @@
+[homelab]
+100-vaultwarden       ansible_host=192.168.2.100
+101-trilium           ansible_host=192.168.2.101
+102-nginxpm           ansible_host=192.168.2.102
+103-paperless-pa      ansible_host=192.168.2.103
+104-paperless-ca      ansible_host=192.168.2.104
+105-paperless-si      ansible_host=192.168.2.105
+106-paperless-ia      ansible_host=192.168.2.106
+107-jellyfin          ansible_host=192.168.2.107
+150-lgsm-mcserver     ansible_host=192.168.2.150
+151-lgsm-pwserver     ansible_host=192.168.2.151
+152-lgsm-sfserver     ansible_host=192.168.2.152
+170-n8n               ansible_host=192.168.2.170
