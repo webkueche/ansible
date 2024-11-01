@@ -1,13 +1,13 @@
 #homelab
-100-vaultwarden       ansible_host=192.168.2.100
-101-trilium           ansible_host=192.168.2.101
-102-nginxpm           ansible_host=192.168.2.102
-103-paperless-pa      ansible_host=192.168.2.103
-104-paperless-ca      ansible_host=192.168.2.104
-105-paperless-si      ansible_host=192.168.2.105
-106-paperless-ia      ansible_host=192.168.2.106
-107-jellyfin          ansible_host=192.168.2.107
-150-lgsm-mcserver     ansible_host=192.168.2.150
-151-lgsm-pwserver     ansible_host=192.168.2.151
-152-lgsm-sfserver     ansible_host=192.168.2.152
-170-n8n               ansible_host=192.168.2.170
+vaultwarden   ansible_host=192.168.2.100      ansible_user=patrick
+trilium       ansible_host=192.168.2.101      ansible_user=patrick
+nginxpm       ansible_host=192.168.2.102      ansible_user=patrick
+paperless-pa  ansible_host=192.168.2.103      ansible_user=paperless
+paperless-ca  ansible_host=192.168.2.104      ansible_user=paperless
+paperless-si  ansible_host=192.168.2.105      ansible_user=paperless
+paperless-ia  ansible_host=192.168.2.106      ansible_user=paperless
+jellyfin      ansible_host=192.168.2.107      ansible_user=patrick
+lgsm-mcserver ansible_host=192.168.2.150      ansible_user=mcserver
+lgsm-pwserver ansible_host=192.168.2.151      ansible_user=pwserver
+lgsm-sfserver ansible_host=192.168.2.152      ansible_user=sfserver
+n8n           ansible_host=192.168.2.170      ansible_user=patrick
