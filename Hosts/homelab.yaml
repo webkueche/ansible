@@ -1,4 +1,4 @@
-[homelab]
+#homelab
 100-vaultwarden       ansible_host=192.168.2.100
 101-trilium           ansible_host=192.168.2.101
 102-nginxpm           ansible_host=192.168.2.102
