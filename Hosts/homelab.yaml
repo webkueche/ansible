@@ -1,14 +1,1 @@
-#homelab
-nginxpm           ansible_host=192.168.2.100      ansible_user=root
-matomo            ansible_host=192.168.2.101      ansible_user=root
-uptime-kuma       ansible_host=192.168.2.102      ansible_user=root
-pihole            ansible_host=192.168.2.103      ansible_user=root
-grafana           ansible_host=192.168.2.104      ansible_user=root
-semaphore         ansible_host=192.168.2.105      ansible_user=root
-vaultwarden       ansible_host=192.168.2.107      ansible_user=root
-trilium           ansible_host=192.168.2.108      ansible_user=root
-lgsm-mcserver     ansible_host=192.168.2.150      ansible_user=root
-lgsm-pwserver     ansible_host=192.168.2.151      ansible_user=root
-lgsm-sfserver     ansible_host=192.168.2.152      ansible_user=root
-lgsm-pwserver-02  ansible_host=192.168.2.153      ansible_user=root
-lgsm-mcserver-02  ansible_host=192.168.2.154      ansible_user=root
+
